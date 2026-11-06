@@ -38,13 +38,13 @@
 
 本技能不自动发帖、抓取评论、写长期记忆或删除低表现素材。脚本写作用 `lany-short-video-script-skill`，对标拆解用 `lany-content-remix-skill`。
 
-[查看来源与删改说明](references/sources.md)
+[查看方法笔记](references/methods.md)
 
-## 2026 年星球增补
+## 延伸用法
 
 新增触达来源与反馈对象检查。调用例：`$lany-content-experiment-skill 这五条只有熟人点赞、没有询单，先区分触达未知与内容问题，再给下一次最小观察；不要直接判定需求不存在。`
 
-[增补来源与适用边界](references/zsxq-2026.md)。原有小报童方法与说明保留。
+[方法笔记与适用边界](references/methods.md)。本页资料为学习材料的重新整理，不是原文复刻。
 
 ## 独立仓库与安装
 
@@ -59,4 +59,4 @@ git clone https://github.com/LanyXiaosheng/lany-content-experiment-skill.git ~/.
 
 已设置 `CODEX_HOME` 时，将目标改为该目录下的 `skills/lany-content-experiment-skill`。已有同名技能时先比较或备份，不覆盖。客户端发现技能后，使用 `$lany-content-experiment-skill` 调用。
 
-初次拆分的提交历史继续保留；当前工作版本已纳入2026年知识星球增强方法。
+当前版本附自包含方法笔记，无需访问外部原文；现有仓库提交历史保留。
